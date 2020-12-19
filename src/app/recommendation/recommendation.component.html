@@ -1,5 +1,50 @@
-<form action="">
-    <select >
-        <option *ngFor="let restaurant of restaurantsList" value="restaurant.ID">{{restaurant.Name}}</option>
-    </select>
+<form [formGroup]="formulario">
+    <div class="form-group">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text bg-white">
+                    <i class="fas fa-user-circle"  [class.green-icon]="this.formulario.get('usuario').valid"></i>
+                </div>
+            </div>
+            <input type="text" class="form-control" formControlName="usuario" placeholder="User">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text bg-white">
+                    <i class="fas fa-credit-card" [class.green-icon]="this.formulario.get('rating').valid"></i>
+                </div>
+            </div>
+            <input type="text" class="form-control" [disabled]="formulario.invalid" maxlength="16" formControlName="rating" placeholder="Calificacion">
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-7">
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text bg-white">
+                            <i class="fas fa-calendar-alt" [class.green-icon]="this.formulario.get('RestauranID').valid"></i>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" formControlName="RestauranID" placeholder="ID Restaurante">
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-md-5">
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text bg-white">
+                            <i class="fas fa-key" [class.green-icon]="this.formulario.get('date').valid"></i>
+                        </div>
+                    </div>
+                    <input type="date" class="form-control" formControlName="date" placeholder="dd/mm/yyyy">
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-success btn-lg btn-block" type="submit"><i class="fas fa-database"></i> Aceptar
+    </button>
 </form>
