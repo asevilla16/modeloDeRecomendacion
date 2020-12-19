@@ -17,7 +17,7 @@ export const Restaurants: any = [
     },
     {
       "ID": 10002,
-      "Name": "San G�icho",
+      "Name": "San Guicho",
       "Location": "Colonia Trejo, 10 calle, 18 Avenida SO",
       "Dish Code": 13,
       "Main Dish": "Subs",
@@ -33,7 +33,7 @@ export const Restaurants: any = [
     {
       "ID": 10003,
       "Name": "Restaurante Pisco",
-      "Location": "3 16 calle � Near Route 66",
+      "Location": "3 16 calle Near Route 66",
       "Dish Code": 10,
       "Main Dish": "Peruvian",
       "Schedule Code": 2,
@@ -78,7 +78,7 @@ export const Restaurants: any = [
     {
       "ID": 10006,
       "Name": "Munchies Food Market",
-      "Location": "18 Avenida SO, Entre 6 7 Calle S � Near ",
+      "Location": "18 Avenida SO, Entre 6 7 Calle S Near ",
       "Dish Code": 5,
       "Main Dish": "Fride Food",
       "Schedule Code": 2,
@@ -93,7 +93,7 @@ export const Restaurants: any = [
     {
       "ID": 10007,
       "Name": "El Portal de Las Carnes",
-      "Location": "Bulevar Los Pr�ceres, 23 Avenida S",
+      "Location": "Bulevar Los Próceres, 23 Avenida S",
       "Dish Code": 12,
       "Main Dish": "Stake",
       "Schedule Code": 2,
@@ -138,7 +138,7 @@ export const Restaurants: any = [
     {
       "ID": 10010,
       "Name": "Ambar Restaurant",
-      "Location": "15 Avenida S � Near Supermercado Junior",
+      "Location": "15 Avenida S Near Supermercado Junior",
       "Dish Code": 2,
       "Main Dish": "Breakfast",
       "Schedule Code": 4,
@@ -152,7 +152,7 @@ export const Restaurants: any = [
     },
     {
       "ID": 10011,
-      "Name": "La Cit�",
+      "Name": "La Cita",
       "Location": "105 7 Calle NO",
       "Dish Code": 4,
       "Main Dish": "French Food",
@@ -258,7 +258,7 @@ export const Restaurants: any = [
     {
       "ID": 10018,
       "Name": "Chedrani Restaurant",
-      "Location": "15 Avenida NO � Near Comisariato Los Andes",
+      "Location": "15 Avenida NO Near Comisariato Los Andes",
       "Dish Code": 12,
       "Main Dish": "Stake",
       "Schedule Code": 2,
@@ -288,7 +288,7 @@ export const Restaurants: any = [
     {
       "ID": 10020,
       "Name": "Restaurante Brasa Viva",
-      "Location": "Barrio El Play�n",
+      "Location": "Barrio El Playón",
       "Dish Code": 12,
       "Main Dish": "Stake",
       "Schedule Code": 2,
@@ -302,7 +302,7 @@ export const Restaurants: any = [
     },
     {
       "ID": 10021,
-      "Name": "Avemar�a Restaurante",
+      "Name": "Avemaría Restaurante",
       "Location": "Los Andes",
       "Dish Code": 14,
       "Main Dish": "Traditional Food",
@@ -348,7 +348,7 @@ export const Restaurants: any = [
     {
       "ID": 10024,
       "Name": "La Pampa Parrillada Argentina",
-      "Location": "Near Pollos El Hondure�o",
+      "Location": "Near Pollos El Hondureño",
       "Dish Code": 12,
       "Main Dish": "Stake",
       "Schedule Code": 2,
@@ -378,7 +378,7 @@ export const Restaurants: any = [
     {
       "ID": 10026,
       "Name": "Restaurante La Ternera",
-      "Location": "16 avenida, 7 Calle B NO � Near Comisariato Los Andes",
+      "Location": "16 avenida, 7 Calle B NO Near Comisariato Los Andes",
       "Dish Code": 12,
       "Main Dish": "Stake",
       "Schedule Code": 4,
@@ -393,7 +393,7 @@ export const Restaurants: any = [
     {
       "ID": 10027,
       "Name": "Power Chicken",
-      "Location": "15 Avenida S � Near Andressas",
+      "Location": "15 Avenida S Near Andressas",
       "Dish Code": 14,
       "Main Dish": "Traditional Food",
       "Schedule Code": 4,
@@ -438,7 +438,7 @@ export const Restaurants: any = [
     {
       "ID": 10030,
       "Name": "SPS Rockhouse",
-      "Location": "13 Avenida NO � Near SerCargo Express",
+      "Location": "13 Avenida NO Near SerCargo Express",
       "Dish Code": 3,
       "Main Dish": "Burgers",
       "Schedule Code": 2,
@@ -468,7 +468,7 @@ export const Restaurants: any = [
     {
       "ID": 10032,
       "Name": "Hasta La Pasta",
-      "Location": "7 calle S. O., 22 Avenida SO � Near Chito�s",
+      "Location": "7 calle S. O., 22 Avenida SO Near Chitos",
       "Dish Code": 8,
       "Main Dish": "Italian Food",
       "Schedule Code": 2,
@@ -483,7 +483,7 @@ export const Restaurants: any = [
     {
       "ID": 10033,
       "Name": "Pats",
-      "Location": "5 Calle S � Right by Chito�s",
+      "Location": "5 Calle S Right by Chitos",
       "Dish Code": 6,
       "Main Dish": "Gourmet Food",
       "Schedule Code": 1,
@@ -497,7 +497,7 @@ export const Restaurants: any = [
     },
     {
       "ID": 10034,
-      "Name": "Chito�s",
+      "Name": "Chito's",
       "Location": "7 calle S. O., 22 Avenida SO",
       "Dish Code": 1,
       "Main Dish": "Boneless",

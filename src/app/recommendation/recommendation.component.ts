@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Restaurants } from './mock-restaurants';
 
 @Component({
   selector: 'app-recommendation',
@@ -8,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class RecommendationComponent implements OnInit {
 
   constructor() { }
+
+  restaurantsList: [] = Restaurants;
 
   ngOnInit(): void {
   }
